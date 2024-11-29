@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="main-container">
+        <article class="sidebar">
+            <section class="side1">
+                <span class="Spotify"><i class="fa-brands fa-spotify"></i>Spotify</span><br><br>
+                <section class="homesearch">
+                    <span class="home"><i id="home" class="fa-solid fa-house"></i>Home</span><br><br>
+                    <span class="search"><i id="search" class="fa-solid fa-magnifying-glass"></i>Search</span>
+                </section>
+            </section>
+            <section class="side2">
+                <section id="library1">
+                <span class="lib"><i id="library" class="fa-solid fa-book"></i>Your Library<i id="plus" class="fa-solid fa-plus"></i></span>
+                 </section>
+                <section class="side20">
+                <section class="side22">
+                    <p class="sidecon1" id="sidecon1">Create your first playlist</p>
+                    <h5 class="sidecon1" id="sidecon2">It's easy ,we'll help you</h5>
+                    <input type="button" name="" id="createplaylist" value="Create Playlist" class="sidecon1">
+                </section>
+                <section class="side23">
+                    <p class="sidecon1" id="sidecon3">Lets's find some podcasts to follow</p>
+                    <h5 class="sidecon1">we'll keep your updated on new episodes</h5>
+                    <input type="button" value="Browse podcasts"  class="browsepodcasts" >
+                </section>
+            </section>
+            <section class="side24">
+                <p>Legal</p>
+                <p>Privacy Center</p>
+                <p>Privacy Policy</p>
+                <p>Cookies</p><br>
+            </section>
+            <section id="side24">
+                <p>About Ads</p>
+                <p>Accessbility</p>
+            </section>
+                <p class="sidecon4">Cookies</p>
+                <i class="fa-solid fa-globe" id="english1"></i><input type="button" name="" id="english" value="English" >
+            </section>
+        </article>
+        <article class="mainbar">
+            <aside class="navbar">
+                <div class="left">
+                    <span class="less"><i class="fa-solid fa-angle-left"></i></span>
+                    <span class="great"><i class="fa-solid fa-angle-right"></i></span>
+                    <section class="textcon">
+                        <span class="text">Premium</span>
+                        <span class="text">Support</span>
+                        <span class="text">Download</span>
+                    </section>       
+                </div>
+                <div class="right">
+                    <input type="button" value="Sign up" id="signup">
+                    <input type="button" value="Log in" id="login">
+                </div>
+            </aside>
+            <aside class="big-cont">
+                <section class="container1">Spotify Playlists</section>
+                <section class="container2">
+                        <aside class="song"><img class="song1" src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
+                            
+                            <h1>Lofi beats</h1>
+                            <h4>chill beats, lofi vibes, new <br>tracks every week..</h4>
+                        </aside>
+                        <aside class="song"><img class="song1" src="https://i.scdn.co/image/ab67706f00000002b81fa84dfd95340eeeaacd04" alt="">
+                            <h1>Today's Top Hits </h1>
+                            <h4>Ariana Grande is on top of <br>the hottest 50!</h4>
+                        </aside>
+                        <aside class="song"><img class="song1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_zi3ol67abo7mzKSwUuW0Lx_c6FQ0zQaaVhqshx92lARmhjNsl9x_yzrMt4ht0IPUpc&usqp=CAU" alt="">
+                            <h1>Chillout Lounge</h1>
+                            <h4>Just lean back and enjoy relaxed beats</h4>
+                        </aside>
+                        <aside class="song"><img class="song1" src="https://i.scdn.co/image/ab67706f00000002d771dc645afe9b87978b1d3e" alt="">
+                            <h1>All out 2020s</h1>
+                            <h4>The biggest songs of the 2020s</h4>
+                        </aside>
+                        <aside class="song"><img class="song1" src="https://i.scdn.co/image/ab67706f00000002bdeb1c317ac2dd10f2397e4c" alt="">
+                            <h1>Jazz in the background</h1>
+                            <h4>Soft instumental</h4>
+                        </aside>
+                </section>
+                <section class="container3">
+                    <aside class="song2"><img class="song22" src="data:image/jpeg;base64,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" alt="">
+                        <h1>Chill Hits</h1>
+                        <h4>Kick back to the best new and recent chill hits.</h4>
+                    </aside>
+                    <aside class="song2"><img class="song22" src="https://i.scdn.co/image/ab67706f00000002d073e656e546e43bc387ad79" alt="">
+                        <h1>Peaceful piano</h1>
+                        <h4>peaceful piano to help you <br>slow down, breath, and relax</h4>
+                    </aside>
+                    <aside class="song2"><img class="song22" src="https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e" alt="">
+                        <h1>Rock classics</h1>
+                        <h4>Rock legends & epic songs</h4>
+                    </aside>
+                    <aside class="song2"><img class="song22" src="https://i.scdn.co/image/ab67706f00000002468762ec9fd93a2dc3b167ee" alt="">
+                        <h1>Stress relief</h1>
+                        <h4>Relieve anxiety and stress <br>with relaxing</h4>
+                    </aside>
+                    <aside class="song2"><img class="song22" src="https://i.scdn.co/image/ab67706f000000027876fe166a29b8e6b8db14da" alt="">
+                        <h1>All Out 80s</h1>
+                        <h4>The biggest songs of the 1980s.</h4>
+                    </aside>
+                </section>
+                <section class="container4">
+                    <div class="bottomtext1">
+                        <span class="text1">
+                            <b>Company</b>
+                            <p class="para1">About</p>
+                            <p class="para1">Jobs</p>
+                            <p class="para1">For the Record</p>
+                        </span>
+                        <span class="text2">
+                            <b>Communities</b>
+                            <p class="para1">For Artists</p>
+                            <p class="para1">Developers</p>
+                            <p class="para1">Advertising</p>
+                            <p class="para1">Investors</p>
+                            <p class="para1">Vendors</p>
+                        </span>
+                        <span class="text3">
+                            <b>Useful Link</b>
+                            <p class="para1">Support</p>
+                            <p class="para1">Free Moblie App</p>
+                        </span>
+                    </div>
+                    <div class="bottomtext2">
+                        <span class="icons1"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="icons2"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="icons3"><i class="fa-brands fa-facebook"></i></span>
+                    </div>
+                </section><hr>
+                <section class="container5">
+                    <p  class="footer">© 2024 Spotify AB </p>
+                </section>
+
+            </aside>
+        </article>
+    </section>
+    <footer>
+        <h2>Preview of spotify</h2>
+        <h3>Sign up to get unlimited song and podcasts with occasional ads. No credit card needed</h3>
+        <input type="button" value="Sign up free" id="free">
+    </footer>
+</body>
+</html>
